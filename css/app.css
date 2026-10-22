@@ -1413,3 +1413,10 @@ input[type='color'] {
     transition: none !important;
   }
 }
+
+/* Optional background music control (top bar) */
+.music-control { display: flex; align-items: center; gap: 6px; }
+.music-control .music-toggle { background: transparent; border: 0; font-size: 18px; line-height: 1; padding: 6px; border-radius: 8px; cursor: pointer; }
+.music-control .music-toggle:hover { background: rgba(255,255,255,.08); }
+.music-control .music-volume { width: 80px; accent-color: #9b7bff; }
+@media (max-width: 720px) { .music-control .music-volume { display: none; } }

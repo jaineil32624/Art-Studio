@@ -117,6 +117,11 @@
     root.appendChild(h('div', { class: 'top-group hide-sm' }, saveBtn, exportBtn));
     root.appendChild(h('div', { class: 'spacer' }));
     root.appendChild(status);
+    // Optional background music toggle + volume (see js/music.js).
+    const musicSlot = h('div', { class: 'top-group music-slot' });
+    App2.music.mountControl(musicSlot);
+    App2.music.init();
+    root.appendChild(musicSlot);
     root.appendChild(helpBtn);
     root.appendChild(panelBtn);
     root.appendChild(fileInputProject);
