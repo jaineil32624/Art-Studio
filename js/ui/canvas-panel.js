@@ -38,6 +38,8 @@
     }, 'small');
     const syncSym = () => {
       symMode.set(st.symmetry.mode);
+      symCount.set(st.symmetry.count);
+      symGuides.set(st.symmetry.guides);
       const radial = st.symmetry.mode === 'radial' || st.symmetry.mode === 'kaleido';
       symCount.style.display = radial ? '' : 'none';
       symGuides.style.display = st.symmetry.mode === 'off' ? 'none' : '';

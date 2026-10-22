@@ -1,22 +1,102 @@
-# Art Studio
+<p align="center">
+  <a href="https://jaineil32624.github.io/Art-Studio/"><img src="docs/banner.png" alt="Art Studio: paint, sketch and create right in your browser" width="100%"></a>
+</p>
 
-| ▶ Play online | ⬇ Download (offline) | 🌐 Website |
-|---|---|---|
-| **[Play now in your browser](https://jaineil32624.github.io/Art-Studio/)** | **[Art-Studio.zip](https://github.com/jaineil32624/Art-Studio/releases/latest/download/Art-Studio.zip)** · [all releases](https://github.com/jaineil32624/Art-Studio/releases) | [jaineil32624.github.io/Art-Studio](https://jaineil32624.github.io/Art-Studio/) |
+<p align="center">
+  <a href="https://jaineil32624.github.io/Art-Studio/"><img alt="Start painting in your browser" src="https://img.shields.io/badge/🎨_START_PAINTING-in_your_browser-ff3d7f?style=for-the-badge"></a>
+  <a href="https://github.com/jaineil32624/Art-Studio/releases/latest/download/Art-Studio.zip"><img alt="Download ZIP" src="https://img.shields.io/badge/⬇_DOWNLOAD_ZIP-play_offline-7c5cff?style=for-the-badge"></a>
+  <a href="https://jaineil32624.github.io/Art-Studio/"><img alt="Website" src="https://img.shields.io/badge/🌐_WEBSITE-jaineil32624.github.io-00b4d8?style=for-the-badge"></a>
+</p>
 
-> **Play offline:** download the ZIP, unzip it, and double-click `index.html`. Nothing to install, works in any modern browser (Chrome, Edge, Firefox, Safari), on desktop and mobile.
->
-> **On a phone or tablet:** open the Play link, then use your browser's *Add to Home Screen*.
+<p align="center">
+  <img alt="No install" src="https://img.shields.io/badge/no_install-just_open_it-3ccf91?style=flat-square">
+  <img alt="Works offline" src="https://img.shields.io/badge/works-offline-ffbe0b?style=flat-square">
+  <img alt="Tablet ready" src="https://img.shields.io/badge/tablet-ready_✍️-ff8fab?style=flat-square">
+  <img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-0-9d85ff?style=flat-square">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-58a6ff?style=flat-square"></a>
+</p>
 
-Art Studio is a digital painting app that runs in the browser. It's written in plain HTML, CSS and JavaScript, with no libraries, no build step and no network access. You can open `index.html` straight from disk (`file://`) and start painting on an infinite canvas.
+<h3 align="center">🎨 An infinite canvas, 20 tools, watercolor, oil, pixel art and magic symmetry. Free, right in your browser. ✨</h3>
 
-![status](https://img.shields.io/badge/dependencies-none-7c5cff) ![license](https://img.shields.io/badge/license-MIT-3ccf91)
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/01-watercolor-sunset.png" alt="Watercolor sunset painted in Art Studio"><p align="center">🌅 <b>Watercolor &amp; oil</b>: wet edges, bristles, real color mixing</p></td>
+    <td width="50%"><img src="docs/screenshots/02-symmetry-mandala.png" alt="Kaleidoscope mandala made with generative brushes"><p align="center">🌀 <b>Kaleidoscope symmetry</b> + generative brushes</p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/03-pixel-art.png" alt="Pixel-art knight on a pixel grid"><p align="center">👾 <b>Pixel-art mode</b>: snap-to-grid, crisp pixels</p></td>
+    <td width="50%"><img src="docs/screenshots/04-stickers-layers-palette.png" alt="Collage with stickers, textures, patterns, layers and the palette generator"><p align="center">🦄 <b>Stickers, textures &amp; patterns</b>, plus layers and palettes</p></td>
+  </tr>
+</table>
 
----
+<p align="center">
+  <img src="docs/screenshots/05-tablet.png" alt="Art Studio on a tablet" width="360"><br>
+  📱 <b>Made for tablets too</b>: pen pressure, pinch to zoom, two-finger pan
+</p>
 
-## Features
+## ✨ What you can do
 
-### Core
+- ♾️ **Paint anywhere** on an infinite canvas, and pan and zoom as far as you like.
+- 🖌️ **Brush, pencil, marker and eraser**, with pen pressure and stroke smoothing.
+- 💧 **Watercolor** with soft wet edges, bleed and pigment that builds up.
+- 🎨 **Oil paint** with bristle streaks that pick up and smear the colors underneath.
+- 🌫️ **Spray paint** that keeps building up while you hold still.
+- 🌀 **Symmetry**: mirror, 4-way, radial and kaleidoscope. Mandalas in seconds.
+- 🤖 **Generative brushes**: flow fields, twisting rainbow ribbons, scattered leaves, stars and hearts, and sketchy webs. All procedural, no internet needed.
+- 👾 **Pixel-art mode** with a grid, crisp pixels and adjustable pixel size.
+- 🔷 **Shapes** (line, rectangle, ellipse, polygon, star), a **fill bucket** and a **multi-stop gradient** editor.
+- 🦄 **Stickers**: 32 emoji and 12 vector stickers you can move, scale and rotate.
+- 🪨 **Texture generator** (marble, wood, clouds, cells, stone) and a **pattern maker**.
+- 🌈 **Palette generator** (complementary, analogous, triadic and more), built from your color.
+- 🗂️ **Layers** with opacity, 16 blend modes, merge and drag-to-reorder, plus **undo/redo**.
+- 🎵 **Optional dreamy background music** to paint to (toggle and volume in the top bar).
+- 💾 **Autosaves** in your browser. Export **PNG**, **JPG** or a project file to keep editing later.
+
+## 🚀 Start in 10 seconds
+
+| | How |
+|---|---|
+| 🌐 **Option 1: Online** | Open **[jaineil32624.github.io/Art-Studio](https://jaineil32624.github.io/Art-Studio/)** and start painting. |
+| ⬇️ **Option 2: Download** | Get **[Art-Studio.zip](https://github.com/jaineil32624/Art-Studio/releases/latest/download/Art-Studio.zip)**, unzip it and double-click `index.html`. It works offline and there's nothing to install. |
+| 📱 **Option 3: Phone / tablet** | Open the [link](https://jaineil32624.github.io/Art-Studio/), then tap **Share → Add to Home Screen** (iPhone/iPad) or **⋮ → Add to Home screen** (Android). |
+
+> 💡 Your artwork autosaves in the browser. Use **File → Export project** to back it up or move it to another device.
+
+## ⌨️ Shortcuts
+
+| Key | Tool | | Key | Action |
+|:---:|---|---|:---:|---|
+| `B` | 🖌️ Brush | | `Ctrl` `Z` | ↩️ Undo |
+| `N` | ✏️ Pencil | | `Ctrl` `Y` | ↪️ Redo |
+| `M` | 🖍️ Marker | | `Ctrl` `S` | 💾 Save in browser |
+| `E` | 🧽 Eraser | | `Ctrl` `E` | 🖼️ Export PNG |
+| `W` | 💧 Watercolor | | `Ctrl` `O` | 📂 Open project |
+| `O` | 🎨 Oil paint | | `Space` + drag | ✋ Pan |
+| `A` | 🌫️ Spray paint | | Wheel / pinch | 🔍 Zoom |
+| `P` | 👾 Pixel art | | `[` `]` | ↔️ Brush size |
+| `F` | 🌊 Flow field | | `Shift` `[` `]` | 🌗 Opacity |
+| `Y` | 🎀 Ribbon | | `X` | 🔁 Swap colors |
+| `C` | 🍃 Scatter shapes | | `Alt` + click | 💉 Pick a color |
+| `K` | 🕸️ Sketchy web | | `Ctrl` `J` | 📄 Duplicate layer |
+| `Q` | 🧩 Pattern brush | | `Ctrl` `M` | ⬇️ Merge down |
+| `G` | 🪣 Fill bucket | | `0` / `1` | 🎯 Fit / 100% |
+| `D` | 🌈 Gradient | | `Enter` / `Esc` | ✅ Apply / ❌ cancel sticker |
+| `U` | 🔷 Shapes | | `Delete` | 🗑️ Clear selection |
+| `I` | 💉 Eyedropper | | `Tab` | 🧰 Show/hide panels |
+| `S` | 🦄 Stickers | | `?` | ❓ Help |
+| `R` | ⬚ Select | | 🎵 button | 🔊 Music on/off |
+| `H` | ✋ Hand | | | |
+
+<details>
+<summary><b>🛠️ For developers: architecture, brush engine, adding a brush</b></summary>
+
+<br>
+
+Art Studio is plain HTML, CSS and JavaScript, with no libraries, no build step and no network access. It runs straight from disk (`file://`). In the code, everything lives under the `window.App2` namespace.
+
+### 📚 Full feature reference
+
+#### Core
 - **Infinite canvas.** Each layer is stored as a sparse grid of 256×256 tiles, so you can draw anywhere.
 - **Pan and zoom.**
   - Pan: Space+drag, the middle mouse button, a two-finger drag, or the Hand tool.
@@ -37,7 +117,7 @@ Art Studio is a digital painting app that runs in the browser. It's written in p
   - Live thumbnails.
 - **Undo/redo.** Ctrl+Z, Ctrl+Y or Ctrl+Shift+Z, plus buttons. Each undo step stores per-tile snapshot diffs cropped to the changed area. Total history is capped at 100 steps or about 192 MB, whichever comes first.
 
-### Art tools
+#### Art tools
 - **Watercolor.** Soft blobs shaped by noise, with darker wet edges, bleed, granulation and pigment that builds up.
 - **Oil paint.** Bristle streaks with different shades. The brush picks up color from the canvas and smears it, then slowly reloads its own color.
 - **Pixel art mode.**
@@ -53,7 +133,7 @@ Art Studio is a digital painting app that runs in the browser. It's written in p
   - Option to clip the gradient to existing layer content.
 - **Symmetry.** Vertical, horizontal, both axes, radial N-way, and kaleidoscope (N-way plus mirror). Works with all brushes, the pixel tool and shapes.
 
-### Creative
+#### Creative
 - **Procedural "AI-inspired" brushes.** These are entirely procedural and never touch the network.
   - **Flow Field:** particles follow a Perlin-noise vector field.
   - **Generative Ribbon:** a twisting ribbon that cycles through hues.
@@ -73,66 +153,25 @@ Art Studio is a digital painting app that runs in the browser. It's written in p
   - Use patterns with the fill bucket, the Pattern Brush or shape fills. Patterns are anchored to world coordinates, so separate strokes line up.
 - **Palette generator.** Complementary, analogous, triadic, split-complementary, tetradic, monochrome and random harmony. Click a swatch to use it as the primary color, or right-click for the secondary.
 
-### Saving
+#### Saving
 - **Autosave.** Saves to `localStorage` a few seconds after each change. The previous session is restored when you reopen the app.
 - **Manual save.** Ctrl+S saves to the browser. *File → Restore last browser save* brings it back.
 - **Export PNG.** Transparent, or with the paper color. The image is cropped to the artwork.
 - **Export JPG.** Flattened onto a white background.
 - **Project files.** Export and import `.app2.json` files, which hold the layers as PNG data URLs (one per tile) plus metadata. You can also drop a project file or an image onto the canvas.
 
-### UX
+#### UX
+- **Background music (optional).** Dreamy procedural pads and soft bells generated live with the Web Audio API (no audio files). Toggle 🎵/🔇 and set the volume in the top bar; your choice is remembered. Browsers only allow sound after your first click or key press.
 - **Interface.**
   - Dark UI with a tool bar on the left (icons and tooltips that show shortcuts), a top bar for file actions and history, and a right panel with collapsible sections: Color, Tool settings, Layers, Canvas, and Creative.
   - The sliders in the right panel show values as you drag, and each tool remembers its own settings.
 - **Input.** Pointer Events with pen pressure and coalesced events for smooth strokes. Adjustable stroke smoothing.
 - **Responsive.** On tablets and phones the tool bar moves to the bottom and the side panel becomes a slide-over drawer. Touch targets are larger and two-finger gestures pan and zoom.
 
----
-
-## How to run
-
-1. Download or clone the folder.
-2. Double-click **`index.html`**, or open it in Chrome, Edge, Firefox or Safari.
-
-There is nothing to install and no server is needed. If you prefer, you can serve the folder with any static server (for example `npx serve .`), but it isn't required.
-
-> Autosave uses `localStorage`, which typically allows only about 5–10 MB per origin. Very large artworks may not fit. In that case App2 shows a warning, and you should use **File → Export project** to keep your work.
-
----
-
-## Keyboard shortcuts
-
-| Key | Tool | | Key | Action |
-|---|---|---|---|---|
-| `H` | Hand (pan) | | `Ctrl+Z` | Undo |
-| `R` | Rectangle select | | `Ctrl+Y` / `Ctrl+Shift+Z` | Redo |
-| `B` | Brush | | `Ctrl+S` | Save to browser |
-| `N` | Pencil | | `Ctrl+Shift+S` | Export project file |
-| `M` | Marker | | `Ctrl+O` | Open project file |
-| `E` | Eraser | | `Ctrl+E` | Export PNG |
-| `P` | Pixel art | | `Space`+drag | Pan |
-| `W` | Watercolor | | Wheel / pinch | Zoom |
-| `O` | Oil paint | | `+` / `−` | Zoom in / out |
-| `A` | Spray paint | | `0` / `1` | Fit artwork / 100 % |
-| `F` | Flow field | | `[` / `]` | Brush size − / + |
-| `Y` | Generative ribbon | | `Shift+[` / `Shift+]` | Opacity − / + |
-| `C` | Scatter shapes | | `X` | Swap colors |
-| `K` | Sketchy web | | `Alt`+click | Pick color |
-| `Q` | Pattern brush | | `Ctrl+Shift+N` | New layer |
-| `G` | Fill bucket | | `Ctrl+J` | Duplicate layer |
-| `D` | Gradient | | `Ctrl+M` | Merge down |
-| `U` | Shapes | | `Ctrl+D` / `Esc` | Deselect |
-| `I` | Eyedropper | | `Delete` | Clear selected area |
-| `S` | Stickers & place | | `Enter` / `Esc` | Apply / cancel placement |
-| | | | `Tab` | Toggle side panel |
-| | | | `?` | Help |
-
----
-
-## Architecture
+### 🏗️ Architecture
 
 ```
-App2/
+Art-Studio/
 ├── index.html            ← loads every script in dependency order (classic <script> tags)
 ├── css/app.css           ← dark theme + responsive layout
 └── js/
@@ -158,9 +197,7 @@ Key ideas:
 - **Symmetry.** Each mode produces a list of affine matrices. Brushes run one stroke "lane" per matrix, and shapes apply each matrix with `ctx.transform`.
 - **Events.** Modules talk to each other through `app.bus` (`doc:changed`, `layers:changed`, `tool:changed`, `color:changed`, …). The renderer batches drawing with `requestAnimationFrame`.
 
----
-
-## How to add a brush
+### 🖌️ How to add a brush
 
 1. Create `js/tools/brushes/my-brush.js`:
 
@@ -214,9 +251,7 @@ Other hooks you can use:
 
 Custom non-brush tools subclass `App2.tools.Tool` and call `App2.tools.register({ id, name, icon, shortcut, group, order, defaults, create: (app, def) => new MyTool(app, def) })`.
 
----
-
-## Known limitations
+### ⚠️ Known limitations
 
 - **Open-area fills.** Because the canvas is infinite, the fill bucket and the gradient are limited to the visible area plus the existing content. That region is capped at 4096 px per side for fills and 8192 px for gradients. Filling an open area fills up to that boundary.
 - **Selection.** The rectangle selection is used for patterns, copying to a new layer and clearing. It doesn't clip other painting tools.
@@ -224,7 +259,21 @@ Custom non-brush tools subclass `App2.tools.Tool` and call `App2.tools.register(
 - **Emoji.** Emoji stickers use the system's emoji font, so they look different on each OS.
 - **Pressure.** Pressure is read only from pens. Mouse and touch input are treated as full pressure.
 
+</details>
+
 ---
+
+<h3 align="center">Like it? ⭐ Star the repo!</h3>
+
+<p align="center">
+  <a href="https://jaineil32624.github.io/Art-Studio/"><img alt="Start painting in your browser" src="https://img.shields.io/badge/🎨_START_PAINTING-in_your_browser-ff3d7f?style=for-the-badge"></a>
+  <a href="https://github.com/jaineil32624/Art-Studio/releases/latest/download/Art-Studio.zip"><img alt="Download ZIP" src="https://img.shields.io/badge/⬇_DOWNLOAD_ZIP-play_offline-7c5cff?style=for-the-badge"></a>
+  <a href="https://jaineil32624.github.io/Art-Studio/"><img alt="Website" src="https://img.shields.io/badge/🌐_WEBSITE-jaineil32624.github.io-00b4d8?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jaineil32624/Art-Studio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jaineil32624/Art-Studio?style=social"></a>
+</p>
 
 ## License
 
