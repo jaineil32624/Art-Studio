@@ -184,7 +184,7 @@
     const content = h(
       'div',
       { class: 'help' },
-      h('p', null, 'Welcome to ', h('strong', null, 'App2'), ' — an infinite canvas: draw anywhere, pan and zoom freely. Your work is autosaved in this browser; export a project file to keep it safe or move it to another device.'),
+      h('p', null, 'Welcome to ', h('strong', null, 'Art Studio'), ' — an infinite canvas: draw anywhere, pan and zoom freely. Your work is autosaved in this browser; export a project file to keep it safe or move it to another device.'),
       h('div', { class: 'help-cols' }, h('div', null, h('h3', null, 'Tools'), h('table', null, toolRows)), h('div', null, h('h3', null, 'Shortcuts'), h('table', null, globalRows))),
       h('p', { class: 'hint' }, 'Tablets: use a pen for pressure; two fingers pan and pinch-zoom. Tap the sliders icon (top right) to open the panels.')
     );

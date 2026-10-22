@@ -110,7 +110,7 @@
     const helpBtn = iconButton('help', 'Help & shortcuts (?)', () => App2.ui.showHelp(app));
     const panelBtn = iconButton('sliders', 'Show/hide panels', () => app.ui.togglePanel(), 'panel-toggle');
 
-    root.appendChild(h('div', { class: 'brand', html: '<span class="logo">' + App2.ui.icon('palette', 22) + '</span><span class="brand-name">App2</span>' }));
+    root.appendChild(h('div', { class: 'brand', html: '<span class="logo">' + App2.ui.icon('palette', 22) + '</span><span class="brand-name">Art Studio</span>' }));
     root.appendChild(fileWrap);
     root.appendChild(name);
     root.appendChild(h('div', { class: 'top-group' }, undoBtn, redoBtn));

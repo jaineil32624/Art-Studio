@@ -1,6 +1,10 @@
-# App2 — Digital Art Studio
+# Art Studio
 
-App2 is a digital painting app that runs in the browser. It's written in plain HTML, CSS and JavaScript, with no libraries, no build step and no network access. You can open `index.html` straight from disk (`file://`) and start painting on an infinite canvas.
+**▶ [Play now in your browser](https://jaineil32624.github.io/Art-Studio/)** · **⬇ [Download ZIP](https://github.com/jaineil32624/Art-Studio/archive/refs/heads/main.zip)**
+
+> Download the ZIP, unzip it, and double-click `index.html` to play offline. Nothing to install.
+
+Art Studio is a digital painting app that runs in the browser. It's written in plain HTML, CSS and JavaScript, with no libraries, no build step and no network access. You can open `index.html` straight from disk (`file://`) and start painting on an infinite canvas.
 
 ![status](https://img.shields.io/badge/dependencies-none-7c5cff) ![license](https://img.shields.io/badge/license-MIT-3ccf91)
 
