@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Dependencies / tooling (none required, but keep the repo clean if added)
+node_modules/
+npm-debug.log*
+dist/
+coverage/
+
+# Exported artwork and project files created while testing
+*.app2.json
+exports/

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#16171c" />
+    <meta name="description" content="App2 — a standalone digital art studio with an infinite canvas." />
+    <title>App2 — Digital Art Studio</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%237c5cff' d='M12 2a10 10 0 0 0 0 20c1.1 0 2-.9 2-2 0-1.1.9-2 2-2h2.4A5.6 5.6 0 0 0 22 9.8C22 5.5 17.5 2 12 2z'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar" class="topbar"></header>
+      <nav id="toolbar" class="toolbar" aria-label="Tools"></nav>
+      <main id="stage" class="stage">
+        <canvas id="view" aria-label="Drawing canvas" tabindex="-1"></canvas>
+        <div class="drop-hint">Drop an image or .app2.json project</div>
+      </main>
+      <div id="panel-scrim" class="panel-scrim"></div>
+      <aside id="panel" class="panel" aria-label="Panels"></aside>
+    </div>
+
+    <noscript>App2 needs JavaScript enabled.</noscript>
+
+    <!--
+      Classic scripts in dependency order (no ES modules, so the app works
+      from file://). Each file attaches to the global window.App2 namespace.
+    -->
+    <!-- core -->
+    <script src="js/core/namespace.js"></script>
+    <script src="js/core/events.js"></script>
+    <script src="js/core/math.js"></script>
+    <script src="js/core/color.js"></script>
+    <script src="js/core/noise.js"></script>
+    <script src="js/core/state.js"></script>
+    <!-- canvas -->
+    <script src="js/canvas/tiled-layer.js"></script>
+    <script src="js/canvas/document.js"></script>
+    <script src="js/canvas/viewport.js"></script>
+    <script src="js/canvas/history.js"></script>
+    <script src="js/canvas/actions.js"></script>
+    <script src="js/canvas/symmetry.js"></script>
+    <script src="js/canvas/renderer.js"></script>
+    <!-- tools: base + brush engine registry -->
+    <script src="js/tools/tool.js"></script>
+    <script src="js/tools/brushes/registry.js"></script>
+    <script src="js/tools/brush-tool.js"></script>
+    <!-- brush engines -->
+    <script src="js/tools/brushes/round.js"></script>
+    <script src="js/tools/brushes/pencil.js"></script>
+    <script src="js/tools/brushes/marker.js"></script>
+    <script src="js/tools/brushes/eraser.js"></script>
+    <script src="js/tools/brushes/watercolor.js"></script>
+    <script src="js/tools/brushes/oil.js"></script>
+    <script src="js/tools/brushes/spray.js"></script>
+    <script src="js/tools/brushes/flowfield.js"></script>
+    <script src="js/tools/brushes/ribbon.js"></script>
+    <script src="js/tools/brushes/scatter.js"></script>
+    <script src="js/tools/brushes/sketchy.js"></script>
+    <script src="js/tools/brushes/pattern.js"></script>
+    <!-- other tools -->
+    <script src="js/tools/hand-tool.js"></script>
+    <script src="js/tools/select-tool.js"></script>
+    <script src="js/tools/pixel-tool.js"></script>
+    <script src="js/tools/fill-tool.js"></script>
+    <script src="js/tools/gradient-tool.js"></script>
+    <script src="js/tools/shape-tool.js"></script>
+    <script src="js/tools/eyedropper-tool.js"></script>
+    <script src="js/tools/sticker-tool.js"></script>
+    <!-- creative -->
+    <script src="js/creative/textures.js"></script>
+    <script src="js/creative/stickers.js"></script>
+    <script src="js/creative/patterns.js"></script>
+    <script src="js/creative/palettes.js"></script>
+    <!-- io -->
+    <script src="js/io/project.js"></script>
+    <script src="js/io/storage.js"></script>
+    <script src="js/io/export.js"></script>
+    <!-- ui -->
+    <script src="js/ui/icons.js"></script>
+    <script src="js/ui/dom.js"></script>
+    <script src="js/ui/toolbar.js"></script>
+    <script src="js/ui/topbar.js"></script>
+    <script src="js/ui/color-panel.js"></script>
+    <script src="js/ui/tool-options.js"></script>
+    <script src="js/ui/canvas-panel.js"></script>
+    <script src="js/ui/layers-panel.js"></script>
+    <script src="js/ui/creative-panel.js"></script>
+    <script src="js/ui/canvas-input.js"></script>
+    <script src="js/ui/shortcuts.js"></script>
+    <!-- boot -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
