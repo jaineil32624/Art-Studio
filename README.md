@@ -1,8 +1,12 @@
 # Art Studio
 
-**▶ [Play now in your browser](https://jaineil32624.github.io/Art-Studio/)** · **⬇ [Download ZIP](https://github.com/jaineil32624/Art-Studio/archive/refs/heads/main.zip)**
+| ▶ Play online | ⬇ Download (offline) | 🌐 Website |
+|---|---|---|
+| **[Play now in your browser](https://jaineil32624.github.io/Art-Studio/)** | **[Art-Studio.zip](https://github.com/jaineil32624/Art-Studio/releases/latest/download/Art-Studio.zip)** · [all releases](https://github.com/jaineil32624/Art-Studio/releases) | [jaineil32624.github.io/Art-Studio](https://jaineil32624.github.io/Art-Studio/) |
 
-> Download the ZIP, unzip it, and double-click `index.html` to play offline. Nothing to install.
+> **Play offline:** download the ZIP, unzip it, and double-click `index.html`. Nothing to install, works in any modern browser (Chrome, Edge, Firefox, Safari), on desktop and mobile.
+>
+> **On a phone or tablet:** open the Play link, then use your browser's *Add to Home Screen*.
 
 Art Studio is a digital painting app that runs in the browser. It's written in plain HTML, CSS and JavaScript, with no libraries, no build step and no network access. You can open `index.html` straight from disk (`file://`) and start painting on an infinite canvas.
 
